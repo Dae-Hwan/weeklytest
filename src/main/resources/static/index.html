@@ -68,7 +68,9 @@
             data.append( "title", $("#title").val() );
             data.append( "content", $("#content").val() );
             data.append( "tags", $("#tags").val() );
+            console.log('fef')
             data.append( "image", $("#image")[0].files[0] );
+            console.log('aaaa')
 
             $.ajax({
                 type: "POST",
